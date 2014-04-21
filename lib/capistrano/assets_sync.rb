@@ -1,7 +1,3 @@
 require 'capistrano/assets_sync/version'
 
-module Capistrano
-  module AssetsSync
-    # Your code goes here...
-  end
-end
+load File.expand_path('../tasks/assets_sync.rake', __FILE__)
