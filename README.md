@@ -1,7 +1,5 @@
 # Capistrano::AssetsSync
 
-TODO: Write a gem description
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -18,7 +16,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Add `require 'capistrano/assets_sync'` in your `Capfile`.
+2. Add `after 'deploy:assets:precompile', 'deploy:assets:sync'` in your `deploy.rb`
 
 ## Contributing
 
